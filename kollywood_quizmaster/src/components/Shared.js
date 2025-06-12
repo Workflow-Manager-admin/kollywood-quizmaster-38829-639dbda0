@@ -12,15 +12,7 @@ export function ProgressBar({ current, total }) {
   );
 }
 
-// PUBLIC_INTERFACE
-export function Clue({ clue, index }) {
-  return (
-    <div className="clue" style={{ background: "var(--primary)", color: "#232323" }}>
-      <span style={{ background: "var(--secondary)", color: "#fff", marginRight: 6, borderRadius: 4, padding: "2px 8px" }}>Clue {index + 1}</span>
-      {clue}
-    </div>
-  );
-}
+
 
 // PUBLIC_INTERFACE
 export function RevealButton({ onClick, revealed }) {

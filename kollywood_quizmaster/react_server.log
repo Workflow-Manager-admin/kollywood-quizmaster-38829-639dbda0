@@ -13,162 +13,63 @@ runtime modules 27.5 KiB 14 modules
 orphan modules 12.8 KiB [orphan] 3 modules
 cacheable modules 1.71 MiB
   modules by path ./node_modules/ 1.61 MiB 34 modules
-  modules by path ./src/ 85.8 KiB 27 modules
+  modules by path ./src/ 89 KiB 27 modules
   modules by path ./.ve/ 15.1 KiB
     modules by path ./.ve/*.js 10.6 KiB 2 modules
     modules by path ./.ve/*.css 2.93 KiB 2 modules
     ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1990 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.93 MiB
-  asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.2f8a0468f330ce6923f8.hot-update.js 5.2 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.2f8a0468f330ce6923f8.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.93 MiB = bundle.js 1.93 MiB main.2f8a0468f330ce6923f8.hot-update.js 5.2 KiB
-cached modules 1.72 MiB [cached] 68 modules
-runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/App.css 2.73 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 136 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.93 MiB
-  asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.ad815b0e1da022048633.hot-update.js 5.84 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.ad815b0e1da022048633.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.93 MiB = bundle.js 1.93 MiB main.ad815b0e1da022048633.hot-update.js 5.84 KiB
-cached modules 1.72 MiB [cached] 68 modules
-runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/App.css 3.35 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 59 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.93 MiB
-  asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.d10828b825ab208118f0.hot-update.js 3.34 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.d10828b825ab208118f0.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.93 MiB = bundle.js 1.93 MiB main.d10828b825ab208118f0.hot-update.js 3.34 KiB
-cached modules 1.72 MiB [cached] 68 modules
-runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/index.css 968 bytes [built] [code generated]
-webpack 5.99.9 compiled successfully in 49 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.93 MiB
-  asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.559b32b6d6779f3a4c18.hot-update.js 4.39 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.559b32b6d6779f3a4c18.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.93 MiB = bundle.js 1.93 MiB main.559b32b6d6779f3a4c18.hot-update.js 4.39 KiB
-cached modules 1.72 MiB [cached] 68 modules
-runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/components/Dashboard.css 1.88 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 49 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.93 MiB
-  asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.a51d84ee759119150875.hot-update.js 3.91 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.a51d84ee759119150875.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.93 MiB = bundle.js 1.93 MiB main.a51d84ee759119150875.hot-update.js 3.91 KiB
-cached modules 1.72 MiB [cached] 68 modules
-runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/components/Login.css 1.45 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 47 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.93 MiB
-  asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.7fe73a54929e6fe93f23.hot-update.js 3.65 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.7fe73a54929e6fe93f23.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.93 MiB = bundle.js 1.93 MiB main.7fe73a54929e6fe93f23.hot-update.js 3.65 KiB
-cached modules 1.72 MiB [cached] 68 modules
-runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/components/Navbar.css 1.19 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 59 ms
+webpack 5.99.9 compiled successfully in 2175 ms
 assets by status 1.92 KiB [cached] 1 asset
 assets by path *.js 1.94 MiB
   asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.acf93e742e191ee52a60.hot-update.js 6.43 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.acf93e742e191ee52a60.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.acf93e742e191ee52a60.hot-update.js 6.43 KiB
+  asset main.15dc47825a0acf81d261.hot-update.js 10.8 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.15dc47825a0acf81d261.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.15dc47825a0acf81d261.hot-update.js 10.8 KiB
 cached modules 1.72 MiB [cached] 68 modules
 runtime modules 27.5 KiB 14 modules
-./node_modules/css-loader/dist/cjs.js!./src/components/Shared.css 3.85 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 90 ms
+./src/games/BlurredPosterQuiz.js 6.93 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 151 ms
 assets by status 1.92 KiB [cached] 1 asset
 assets by path *.js 1.94 MiB
   asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.8601cafe11972217e085.hot-update.js 8.85 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.8601cafe11972217e085.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.8601cafe11972217e085.hot-update.js 8.85 KiB
-cached modules 1.71 MiB [cached] 67 modules
+  asset main.932a63ab4fdb70b5f71a.hot-update.js 13.3 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.932a63ab4fdb70b5f71a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.932a63ab4fdb70b5f71a.hot-update.js 13.3 KiB
+cached modules 1.72 MiB [cached] 68 modules
 runtime modules 27.5 KiB 14 modules
-javascript modules 5.42 KiB
-  ./src/App.js 5.38 KiB [code generated]
-  ./src/games/MovieTimeline.js 39 bytes [built] [code generated] [1 error]
-
-ERROR in ./src/games/MovieTimeline.js
-Module build failed (from ./node_modules/babel-loader/lib/index.js):
-SyntaxError: /home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/src/games/MovieTimeline.js: Identifier 'dragged' has already been declared. (54:9)
-
-  52 |   const movies = questions[0] || [];
-  53 |   const handleDragStart = idx => setDragged(idx);
-> 54 |   const [dragged, setDragged] = useState(null);
-     |          ^
-  55 |
-  56 |   function handleDrop(toIdx) {
-  57 |     const newOrder = [...order];
-    at constructor (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:363:19)
-    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:6609:19)
-    at ScopeHandler.checkRedeclarationInScope (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:1626:19)
-    at ScopeHandler.declareName (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:1592:12)
-    at JSXParserMixin.declareNameFromIdentifier (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:7538:16)
-    at JSXParserMixin.checkIdentifier (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:7534:12)
-    at JSXParserMixin.checkLVal (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:7475:12)
-    at JSXParserMixin.checkLVal (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:7511:16)
-    at JSXParserMixin.parseVarId (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13327:10)
-    at JSXParserMixin.parseVar (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13302:12)
-    at JSXParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13149:10)
-    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12770:23)
-    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12685:17)
-    at JSXParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12665:17)
-    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13235:61)
-    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13228:10)
-    at JSXParserMixin.parseBlock (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13216:10)
-    at JSXParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12035:24)
-    at JSXParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12021:10)
-    at /home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13360:12
-    at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12338:14)
-    at JSXParserMixin.parseFunction (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13359:10)
-    at JSXParserMixin.parseExportDefaultExpression (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13822:19)
-    at JSXParserMixin.parseExport (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13743:25)
-    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12797:27)
-    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12685:17)
-    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12662:17)
-    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13235:36)
-    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:13228:10)
-    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12541:10)
-    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:12531:25)
-    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:14410:10)
-    at parse (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/parser/lib/index.js:14444:38)
-    at parser (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/core/lib/parser/index.js:41:34)
-    at parser.next (<anonymous>)
-    at normalizeFile (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
-    at normalizeFile.next (<anonymous>)
-    at run (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/core/lib/transformation/index.js:22:50)
-    at run.next (<anonymous>)
-    at transform (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/@babel/core/lib/transform.js:22:33)
-    at transform.next (<anonymous>)
-    at step (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/gensync/index.js:261:32)
-    at /home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/gensync/index.js:273:13
-    at async.call.result.err.err (/home/kavia/workspace/code-generation/kollywood-quizmaster-38829-639dbda0/kollywood_quizmaster/node_modules/gensync/index.js:223:11)
- @ ./src/App.js 10:0-50 81:46-59
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 1 error in 63 ms
+./src/games/BlurredPosterQuiz.js 9.03 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 107 ms
 assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.94 MiB
+assets by path *.js 1.93 MiB
   asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.97ea573e91cc2ab8e7f6.hot-update.js 9.07 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.97ea573e91cc2ab8e7f6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.97ea573e91cc2ab8e7f6.hot-update.js 9.07 KiB
-cached modules 1.71 MiB [cached] 67 modules
+  asset main.208a1f497735b0c77b44.hot-update.js 3.93 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.208a1f497735b0c77b44.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.93 MiB = bundle.js 1.93 MiB main.208a1f497735b0c77b44.hot-update.js 3.93 KiB
+cached modules 1.69 MiB [cached] 63 modules
 runtime modules 27.5 KiB 14 modules
-javascript modules 10.9 KiB
-  ./src/App.js 5.38 KiB [code generated]
-  ./src/games/MovieTimeline.js 5.54 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 127 ms
+javascript modules 38.8 KiB
+  ./src/games/BlurredPosterQuiz.js 9.03 KiB [code generated]
+  ./src/games/CharacterMovieMatch.js 7.65 KiB [code generated]
+  ./src/games/MovieTimeline.js 5.54 KiB [code generated]
+  ./src/games/SpinTheWheel.js 7.76 KiB [code generated]
+  ./src/games/CastCombo.js 7.21 KiB [code generated]
+  ./src/components/Shared.js 1.62 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 69 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.95 MiB
+  asset bundle.js 1.93 MiB [emitted] (name: main)
+  asset main.6250c08ff81338b801a6.hot-update.js 14.9 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.6250c08ff81338b801a6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.95 MiB = bundle.js 1.93 MiB main.6250c08ff81338b801a6.hot-update.js 14.9 KiB
+cached modules 1.72 MiB [cached] 68 modules
+runtime modules 27.5 KiB 14 modules
+./src/games/SpinTheWheel.js 10.3 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 129 ms
+assets by status 1.94 MiB [cached] 2 assets
+cached modules 1.72 MiB (javascript) 27.5 KiB (runtime) [cached] 82 modules
+./src/games/BlurredPosterQuiz.js 9.03 KiB [built]
+webpack 5.99.9 compiled successfully in 77 ms
+assets by status 1.94 MiB [cached] 2 assets
+cached modules 1.72 MiB (javascript) 27.5 KiB (runtime) [cached] 82 modules
+./src/games/SpinTheWheel.js 10.3 KiB [built]
+webpack 5.99.9 compiled successfully in 85 ms
