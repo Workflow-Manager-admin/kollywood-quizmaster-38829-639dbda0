@@ -1,0 +1,125 @@
+.progressbar {
+  position: relative;
+  height: 18px;
+  background: #eeeeff;
+  border-radius: 11px;
+  margin: 20px 0 8px 0;
+  width: 88%;
+  max-width: 380px;
+}
+.progressbar-inner {
+  height: 100%;
+  background: var(--secondary);
+  border-radius: 11px 0 0 11px;
+  transition: width 0.24s cubic-bezier(0.4,0,0.2,1);
+}
+.progressbar-label {
+  position: absolute;
+  width: 88%;
+  left: 50%;
+  top: 1px;
+  text-align: center;
+  color: #0f3460;
+  font-size: 0.87rem;
+  transform: translateX(-50%);
+}
+.clue {
+  display: flex;
+  align-items: center;
+  background: var(--primary);
+  color: #0f3460;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #f0f0ff44;
+  font-weight: 500;
+  padding: 9px 14px;
+  margin-top: 6px;
+  font-size: 1.15rem;
+  width: fit-content;
+}
+.answer-input {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.bingo-board {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 7px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 28px #6d16c014;
+  padding: 18px 0;
+  width: 100%;
+  max-width: 420px;
+}
+.bingo-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 7px;
+}
+.bingo-cell {
+  min-width: 70px;
+  min-height: 44px;
+  padding: 13px 9px;
+  background: #e5def8;
+  border: 1.5px solid #decafb;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background .14s, color .14s;
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+.bingo-cell.selected {
+  background: var(--secondary);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* Timeline Challenge */
+.timeline-list {
+  margin-top: 22px;
+}
+.timeline-item {
+  margin-bottom: 12px;
+  box-shadow: 0 1px 7px #df60ec22;
+}
+
+/* Wheel spinner */
+.wheel-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wheel-hint {
+  padding: 17px 30px;
+  background: #fff;
+  color: #1a1a26;
+  border-radius: 13px;
+  border: 2px solid var(--secondary);
+  font-size: 1.22rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+  min-width: 220px;
+  min-height: 86px;
+  letter-spacing: 1px;
+  text-align: left;
+  transition: box-shadow .15s;
+}
+.wheel-hint.spinning {
+  box-shadow: 0 2px 15px #24b4cc40;
+}
+
+/* Character-Movie match */
+.char-choice {
+  transition: opacity .19s, border-color .17s;
+}
+.char-choice.matched {
+  opacity: 0.46;
+  border-color: #ddd;
+}
+
+.movie-dropzone {
+  margin-top: 35px;
+}
