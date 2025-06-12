@@ -1,31 +1,41 @@
 .navbar {
   background: var(--primary);
   padding: 18px 0;
-  border-bottom: 2px solid var(--accent);
-  box-shadow: 0 2px 9px #24242409;
+  border-bottom: 3px solid var(--accent);
+  box-shadow: 0 2px 13px #ffd2f040;
   position: sticky;
   top: 0;
   z-index: 990;
 }
+
 .navbar-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
-  font-weight: 700;
-  font-size: 1.3rem;
-  color: #0f3460;
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--accent);
+  text-shadow: 0 2px 13px #ffc7f24b;
+  letter-spacing: 0.01em;
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 13px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+
 .logo-symbol {
-  font-size: 1.5rem;
+  font-size: 1.56rem;
+  color: var(--secondary);
 }
+
 .navbar-user {
   color: var(--accent);
-  font-weight: 500;
+  font-weight: 650;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   margin-right: 12px;
+  letter-spacing: 0.03em;
 }

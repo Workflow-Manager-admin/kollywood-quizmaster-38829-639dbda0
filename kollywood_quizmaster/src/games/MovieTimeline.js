@@ -18,6 +18,7 @@ export default function MovieTimeline() {
   const [score, setScore] = useState(0);
   const [feedback, setFeedback] = useState(null);
   const [index, setIndex] = useState(0);
+  const [dragged, setDragged] = useState(null);
 
   const { setResults, setActiveGame } = useApp();
   const navigate = useNavigate();
@@ -50,7 +51,6 @@ export default function MovieTimeline() {
 
   const movies = questions[0] || [];
   const handleDragStart = idx => setDragged(idx);
-  const [dragged, setDragged] = useState(null);
 
   function handleDrop(toIdx) {
     const newOrder = [...order];
