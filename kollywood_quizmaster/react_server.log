@@ -11,65 +11,83 @@ asset bundle.js 1.93 MiB [emitted] (name: main)
 asset index.html 1.92 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
 orphan modules 12.8 KiB [orphan] 3 modules
-cacheable modules 1.71 MiB
+cacheable modules 1.72 MiB
   modules by path ./node_modules/ 1.61 MiB 34 modules
-  modules by path ./src/ 89 KiB 27 modules
+  modules by path ./src/ 93 KiB 27 modules
   modules by path ./.ve/ 15.1 KiB
     modules by path ./.ve/*.js 10.6 KiB 2 modules
     modules by path ./.ve/*.css 2.93 KiB 2 modules
     ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 2175 ms
+webpack 5.99.9 compiled successfully in 2028 ms
 assets by status 1.92 KiB [cached] 1 asset
 assets by path *.js 1.94 MiB
   asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.15dc47825a0acf81d261.hot-update.js 10.8 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.15dc47825a0acf81d261.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.15dc47825a0acf81d261.hot-update.js 10.8 KiB
+  asset main.a1709354a305ccb4dd18.hot-update.js 6.15 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.a1709354a305ccb4dd18.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.a1709354a305ccb4dd18.hot-update.js 6.15 KiB
 cached modules 1.72 MiB [cached] 68 modules
 runtime modules 27.5 KiB 14 modules
-./src/games/BlurredPosterQuiz.js 6.93 KiB [built] [code generated]
+./src/tmdbApi.js 4.32 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 152 ms
+<i> [webpack-dev-middleware] wait until bundle finished: /main.a1709354a305ccb4dd18.hot-update.json
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.95 MiB
+  asset bundle.js 1.93 MiB [emitted] (name: main)
+  asset main.eac08caae392479949bf.hot-update.js 13.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.eac08caae392479949bf.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.95 MiB = bundle.js 1.93 MiB main.eac08caae392479949bf.hot-update.js 13.4 KiB
+cached modules 1.72 MiB [cached] 68 modules
+runtime modules 27.5 KiB 14 modules
+./src/games/BlurredPosterQuiz.js 9.17 KiB [built] [code generated]
 webpack 5.99.9 compiled successfully in 151 ms
 assets by status 1.92 KiB [cached] 1 asset
 assets by path *.js 1.94 MiB
   asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.932a63ab4fdb70b5f71a.hot-update.js 13.3 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.932a63ab4fdb70b5f71a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.932a63ab4fdb70b5f71a.hot-update.js 13.3 KiB
+  asset main.2f255abc00b7bc54b3d5.hot-update.js 9.22 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.2f255abc00b7bc54b3d5.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.2f255abc00b7bc54b3d5.hot-update.js 9.22 KiB
 cached modules 1.72 MiB [cached] 68 modules
 runtime modules 27.5 KiB 14 modules
-./src/games/BlurredPosterQuiz.js 9.03 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 107 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.93 MiB
-  asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.208a1f497735b0c77b44.hot-update.js 3.93 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.208a1f497735b0c77b44.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.93 MiB = bundle.js 1.93 MiB main.208a1f497735b0c77b44.hot-update.js 3.93 KiB
-cached modules 1.69 MiB [cached] 63 modules
-runtime modules 27.5 KiB 14 modules
-javascript modules 38.8 KiB
-  ./src/games/BlurredPosterQuiz.js 9.03 KiB [code generated]
-  ./src/games/CharacterMovieMatch.js 7.65 KiB [code generated]
-  ./src/games/MovieTimeline.js 5.54 KiB [code generated]
-  ./src/games/SpinTheWheel.js 7.76 KiB [code generated]
-  ./src/games/CastCombo.js 7.21 KiB [code generated]
-  ./src/components/Shared.js 1.62 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 69 ms
+./src/games/MovieTimeline.js 5.69 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 85 ms
 assets by status 1.92 KiB [cached] 1 asset
 assets by path *.js 1.95 MiB
   asset bundle.js 1.93 MiB [emitted] (name: main)
-  asset main.6250c08ff81338b801a6.hot-update.js 14.9 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.6250c08ff81338b801a6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.95 MiB = bundle.js 1.93 MiB main.6250c08ff81338b801a6.hot-update.js 14.9 KiB
+  asset main.2528b28297a2f70b2b34.hot-update.js 15 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.2528b28297a2f70b2b34.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.95 MiB = bundle.js 1.93 MiB main.2528b28297a2f70b2b34.hot-update.js 15 KiB
 cached modules 1.72 MiB [cached] 68 modules
 runtime modules 27.5 KiB 14 modules
-./src/games/SpinTheWheel.js 10.3 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 129 ms
-assets by status 1.94 MiB [cached] 2 assets
-cached modules 1.72 MiB (javascript) 27.5 KiB (runtime) [cached] 82 modules
-./src/games/BlurredPosterQuiz.js 9.03 KiB [built]
-webpack 5.99.9 compiled successfully in 77 ms
-assets by status 1.94 MiB [cached] 2 assets
-cached modules 1.72 MiB (javascript) 27.5 KiB (runtime) [cached] 82 modules
-./src/games/SpinTheWheel.js 10.3 KiB [built]
-webpack 5.99.9 compiled successfully in 85 ms
+./src/games/SpinTheWheel.js 10.4 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 91 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.94 MiB
+  asset bundle.js 1.93 MiB [emitted] (name: main)
+  asset main.31263f5ab19415de8ccd.hot-update.js 11 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.31263f5ab19415de8ccd.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.31263f5ab19415de8ccd.hot-update.js 11 KiB
+cached modules 1.72 MiB [cached] 68 modules
+runtime modules 27.5 KiB 14 modules
+./src/games/CastCombo.js 7.26 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 89 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.94 MiB
+  asset bundle.js 1.93 MiB [emitted] (name: main)
+  asset main.d5ba2ec5e65d18a50652.hot-update.js 7.87 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.d5ba2ec5e65d18a50652.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.d5ba2ec5e65d18a50652.hot-update.js 7.87 KiB
+cached modules 1.72 MiB [cached] 68 modules
+runtime modules 27.5 KiB 14 modules
+./src/games/MovieBingo.js 4.78 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 54 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.94 MiB
+  asset bundle.js 1.93 MiB [emitted] (name: main)
+  asset main.22fd09a64dd2dd857941.hot-update.js 2.94 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.22fd09a64dd2dd857941.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.94 MiB = bundle.js 1.93 MiB main.22fd09a64dd2dd857941.hot-update.js 2.94 KiB
+cached modules 1.73 MiB [cached] 68 modules
+runtime modules 27.5 KiB 14 modules
+./src/index.js 709 bytes [built] [code generated]
+webpack 5.99.9 compiled successfully in 70 ms

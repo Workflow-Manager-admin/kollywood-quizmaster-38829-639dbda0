@@ -31,10 +31,13 @@ export default function MovieTimeline() {
       // Fetch years
       const picksWithYear = await Promise.all(
         picks.map(async (movie) => {
+          // Always use TMDB details in ENGLISH
           const details = await getMovieDetails(movie.id);
           return {
             ...movie,
-            release_year: details.release_date ? details.release_date.slice(0,4) : "????"
+            // English release year fallback
+            release_year: details.release_date ? details.release_date.slice(0,4) : "????",
+            english_title: details.title || details.original_title
           };
         })
       );

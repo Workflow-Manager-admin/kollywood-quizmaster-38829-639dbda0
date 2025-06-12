@@ -15,6 +15,7 @@ function getBingoCategories(genres) {
     "Box-office Hit", "Classic", "New Release", "Festival Favorite"
   ];
   if (genres && genres.length >= 10) {
+    // Only english genre names
     return genres.map(g => g.name).concat(preset).slice(0, BINGO_SIZE * BINGO_SIZE);
   }
   return preset.slice(0, BINGO_SIZE * BINGO_SIZE);

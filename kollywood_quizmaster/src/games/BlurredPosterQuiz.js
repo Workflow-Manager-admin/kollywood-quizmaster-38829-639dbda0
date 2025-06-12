@@ -128,9 +128,10 @@ export default function BlurredPosterQuiz() {
   const correctTitle = curQ.movie.title || curQ.movie.original_title;
 
   // Clues
+  const overviewEnglish = curQ.details.overview ? curQ.details.overview.split(".")[0] : null;
   const clues = [
-    curQ.details.overview?.split(".")[0] || "Popular Kollywood movie.",
-    `Year: ${curQ.movie.release_date?.slice(0, 4) || "?"}`,
+    overviewEnglish || "A popular Kollywood movie, released in Tamil cinema.",
+    `Release Year: ${curQ.details.release_date?.slice(0, 4) || curQ.movie.release_date?.slice(0, 4) || "?"}`,
   ];
 
   function handleRevealClue(i) {

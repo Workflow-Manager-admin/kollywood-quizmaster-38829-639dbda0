@@ -12,9 +12,10 @@ function getRandomElement(arr) {
 
 // Two clue extraction utility (actor+year, actress+year). Clues should be two distinct hints.
 function getTwoCluesFromCriteria(criteria) {
+  // Ensure clues are clear and formatted for English users.
   return [
-    `Actor: ${criteria.actor} | Year: ${criteria.year}`,
-    `Actress: ${criteria.actress} | Year: ${criteria.year}`
+    `Male Actor: ${criteria.actor || "Unknown"} (Year: ${criteria.year || "?"})`,
+    `Female Actor: ${criteria.actress || "Unknown"} (Year: ${criteria.year || "?"})`
   ];
 }
 

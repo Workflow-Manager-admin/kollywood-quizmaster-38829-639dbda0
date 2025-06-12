@@ -31,26 +31,25 @@ export default function CastCombo() {
         const movie = results[i];
         const credits = await getMovieCredits(movie.id);
         const mainCast = (credits.cast || []).slice(0, 6);
-        // Choose 2 or 3 from main cast, or for odd-one-out 2+1 from other movie
+        // Only use English actor names and English movie titles
         if (mainCast.length < 2) continue;
         let combo = shuffle(mainCast).slice(0, 2);
-        // For every other Q, do odd-one-out challenge
         let actors, correct;
         if (i % 2 === 1 && results.length > QUIZ_LENGTH + 2) {
           const nextMovie = results[QUIZ_LENGTH + i];
           const nextCast = (await getMovieCredits(nextMovie.id)).cast || [];
           const oddActor = shuffle(nextCast)[0];
           actors = [
-            ...combo.map(act => act.name),
-            oddActor?.name || "Unknown"
+            ...combo.map(act => act.name || act.original_name || "Unknown"),
+            oddActor?.name || oddActor?.original_name || "Unknown"
           ];
-          correct = oddActor?.name || "Unknown";
+          correct = oddActor?.name || oddActor?.original_name || "Unknown";
           actors = shuffle(actors);
           questionsArr.push({
             type: "odd", actors, correct
           });
         } else {
-          actors = combo.map(act => act.name);
+          actors = combo.map(act => act.name || act.original_name || "Unknown");
           correct = movie.title;
           questionsArr.push({
             type: "combo",

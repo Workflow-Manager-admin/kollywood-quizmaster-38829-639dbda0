@@ -13,18 +13,18 @@ const TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/";
 
 const DEFAULT_POSTER_SIZE = "w500";
 const TAMIL_LANGUAGE = "ta"; // ISO 639-1 language code
+const ENGLISH_LANGUAGE = "en-US";
 const IN_REGION = "IN"; // For India/Indian movies
 
 // PUBLIC_INTERFACE
 /**
  * Fetches a list of Kollywood (Tamil) movies.
- * @param {Object} options Optional params: page, sortBy, year, withGenres
- * @returns {Promise<Object>} TMDB API movie list response
+ * Filters by Tamil original language, but ensures clues/descriptions returned in English.
  */
 export async function getKollywoodMovies(options = {}) {
   /**
-   * This fetches a list of Tamil-language movies using TMDB's discover endpoint.
-   * You may modify 'sort_by', 'year', and 'with_genres' as needed.
+   * This fetches a list of Tamil-language movies using TMDB's discover endpoint,
+   * but ENGLISH fields (overviews, titles, taglines, etc) for clues.
    */
   const {
     page = 1,
@@ -33,14 +33,14 @@ export async function getKollywoodMovies(options = {}) {
     withGenres
   } = options;
 
-  // Note: 'with_original_language' filters for Tamil, region 'IN' restricts to India
-  // For Kollywood, filtering by language is best
+  // with_original_language filters for Tamil, but all text in response will be English due to language param
   const params = new URLSearchParams({
     api_key: TMDB_API_KEY,
     sort_by: sortBy,
     with_original_language: TAMIL_LANGUAGE,
     region: IN_REGION,
-    page
+    page,
+    language: ENGLISH_LANGUAGE
   });
   if (year) params.append("year", year);
   if (withGenres) params.append("with_genres", withGenres);
@@ -55,13 +55,12 @@ export async function getKollywoodMovies(options = {}) {
 // PUBLIC_INTERFACE
 /**
  * Fetches detailed info for a given movie by TMDB ID.
- * @param {number|string} movieId
- * @returns {Promise<Object>} Movie detail object
+ * Always returns details in English for clues/hints/question phrasing.
  */
 export async function getMovieDetails(movieId) {
   const params = new URLSearchParams({
     api_key: TMDB_API_KEY,
-    language: `${TAMIL_LANGUAGE}-IN`
+    language: ENGLISH_LANGUAGE
   });
   const url = `${TMDB_BASE_URL}/movie/${movieId}?${params.toString()}`;
   const response = await fetch(url);
@@ -73,10 +72,6 @@ export async function getMovieDetails(movieId) {
 // PUBLIC_INTERFACE
 /**
  * Given a TMDB movie object, returns the poster full URL.
- * @param {Object} movie
- * @param {string} movie.poster_path
- * @param {string} [size]
- * @returns {string} Poster image URL, or placeholder if unavailable.
  */
 export function getPosterUrl(movie, size = DEFAULT_POSTER_SIZE) {
   if (!movie || !movie.poster_path) return "https://via.placeholder.com/500x750?text=No+Poster";
@@ -86,13 +81,12 @@ export function getPosterUrl(movie, size = DEFAULT_POSTER_SIZE) {
 // PUBLIC_INTERFACE
 /**
  * Fetches the cast and crew for a Kollywood movie.
- * @param {number|string} movieId
- * @returns {Promise<Object>} { cast, crew }
+ * Always returns names/roles in English (as far as available).
  */
 export async function getMovieCredits(movieId) {
   const params = new URLSearchParams({
     api_key: TMDB_API_KEY,
-    language: `${TAMIL_LANGUAGE}-IN`
+    language: ENGLISH_LANGUAGE
   });
   const url = `${TMDB_BASE_URL}/movie/${movieId}/credits?${params.toString()}`;
   const response = await fetch(url);
@@ -103,16 +97,14 @@ export async function getMovieCredits(movieId) {
 // PUBLIC_INTERFACE
 /**
  * Searches for Kollywood (Tamil) movies by keyword.
- * @param {string} query
- * @param {Object} options Optional params: page
- * @returns {Promise<Object>} TMDB search result
+ * Query results and metadata are in English.
  */
 export async function searchKollywoodMovies(query, options = {}) {
   const { page = 1 } = options;
   const params = new URLSearchParams({
     api_key: TMDB_API_KEY,
     query,
-    language: TAMIL_LANGUAGE,
+    language: ENGLISH_LANGUAGE,
     region: IN_REGION,
     page
   });
@@ -124,14 +116,13 @@ export async function searchKollywoodMovies(query, options = {}) {
 
 // PUBLIC_INTERFACE
 /**
- * Gets a list of genres from TMDB, to be filtered for Tamil movies.
- * This is useful for category-based quizzes (e.g. movie bingo).
- * @returns {Promise<Array>} Array of {id, name}
+ * Gets a list of genres from TMDB, filtered for Kollywood,
+ * but ensures genre names are in English.
  */
 export async function getGenres() {
   const params = new URLSearchParams({
     api_key: TMDB_API_KEY,
-    language: TAMIL_LANGUAGE
+    language: ENGLISH_LANGUAGE
   });
   const url = `${TMDB_BASE_URL}/genre/movie/list?${params.toString()}`;
   const response = await fetch(url);
